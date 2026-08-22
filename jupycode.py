@@ -6,11 +6,11 @@ from pygame.locals import *
 import random
 import math
 
-# Define the colours
+# colours
 GREEN = (84, 216, 61)
 AMBER = (255, 153, 0)
 
-# Define constants
+# constants
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 480
 
@@ -39,7 +39,7 @@ pygame.key.set_repeat(10, 20)
 clock = pygame.time.Clock()
 font = pygame.font.SysFont('Courier', 16)
 
-# Load images
+# images
 background_image = pygame.image.load('background.png').convert()
 
 planet_high_low_image = pygame.image.load('planet_high_low.png').convert_alpha()
@@ -56,13 +56,13 @@ lander_image = pygame.image.load('lander.png').convert_alpha()
 thrust_image = pygame.image.load('thrust_lander.png').convert_alpha()
 exploded_lander_image = pygame.image.load('exploded_lander.png').convert_alpha()
 
-# Load sounds
+# sounds
 thrust_sound = pygame.mixer.Sound('thrust.ogg')
 explosion_sound = pygame.mixer.Sound('explosion.ogg')
 landed_sound = pygame.mixer.Sound('landed.ogg')
 
 def main():
-    # Initialise variables
+    # variables
     terrain_block_size = planet_blank_image.get_rect().width
     terrain_blocks = int(SCREEN_WIDTH / terrain_block_size)
 
