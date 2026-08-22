@@ -1,1 +1,2 @@
-Cool Python Game Project😉
+Cool Python Game Project
+My First Game😭
