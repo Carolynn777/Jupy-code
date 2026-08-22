@@ -1,2 +1,1 @@
-# Jupy-code
-Game
+Cool Python Game Project😉
